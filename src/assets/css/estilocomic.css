@@ -1,0 +1,78 @@
+.rojo {
+  background-color: red;
+  color: white;
+}
+.verde {
+  background-color: lightgreen;
+}
+
+img {
+  width: 150px;
+  height: 250px;
+  border-radius: 8px;
+}
+
+div#comics {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f0f0f0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px;
+}
+
+li {
+  margin: 10px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.comic-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+  max-width: 350px; 
+  width: 100%; 
+  perspective: 1000px;
+}
+
+.comic-card:hover {
+  transform: translateY(-10px) rotateY(5deg) rotateX(5deg); 
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  width: 20%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #218838;
+}
