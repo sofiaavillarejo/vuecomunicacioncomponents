@@ -2,12 +2,21 @@
   <div>
     <!-- <PadreDeportes/>
     <PadreNumero/> -->
-    <ComicsComponent/>
+    <!-- <ComicsComponent/> -->
+    <!-- <SeleccionMultiple/> -->
+    <!-- <CheckboxComponent/> -->
+    <MenuComponent/>
+    <router-view/>
   </div>
 </template>
 
 <script>
-import ComicsComponent from './components/ComicsComponent.vue';
+import MenuComponent from './components/MenuComponent.vue';
+
+// import CheckboxComponent from './components/CheckboxComponent.vue';
+// import SeleccionMultiple from './components/SeleccionMultiple.vue';
+
+// import ComicsComponent from './components/ComicsComponent.vue';
 // import PadreDeportes from './components/PadreDeportes.vue';
 // import PadreNumero from './components/PadreNumero.vue';
 
@@ -16,7 +25,10 @@ export default {
   name: 'App',
   components: {
     // PadreDeportes, PadreNumero, 
-    ComicsComponent
+    // ComicsComponent,
+    // SeleccionMultiple
+    // CheckboxComponent
+    MenuComponent
   }
 }
 </script>
