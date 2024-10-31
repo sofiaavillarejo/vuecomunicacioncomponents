@@ -5,13 +5,15 @@
     <!-- <ComicsComponent/> -->
     <!-- <SeleccionMultiple/> -->
     <!-- <CheckboxComponent/> -->
-    <MenuComponent/>
+    <!-- <MenuComponent/> -->
+    <MenuTablaMultiplicar/>
     <router-view/>
   </div>
 </template>
 
 <script>
-import MenuComponent from './components/MenuComponent.vue';
+// import MenuComponent from './components/MenuComponent.vue';
+import MenuTablaMultiplicar from './components/MenuTablaMultiplicar.vue';
 
 // import CheckboxComponent from './components/CheckboxComponent.vue';
 // import SeleccionMultiple from './components/SeleccionMultiple.vue';
@@ -28,7 +30,8 @@ export default {
     // ComicsComponent,
     // SeleccionMultiple
     // CheckboxComponent
-    MenuComponent
+    // MenuComponent
+    MenuTablaMultiplicar
   }
 }
 </script>
